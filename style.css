@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.board{
+    margin-top: 100px;
+    font-size: 40px;
+    color: #F94F6D;
+}
+
+.score {
+    background: rgb(13, 0, 1);
+    font-size: 90px;
+    color: #F94F6D;
+    width: 150px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height: 50vh;
+    width: 50vw;
+    align-items: center;
+    color: #fff;
+   margin: auto;
+}
+
+.mini-container{
+    display: block;
+      
+}
+
+ button {
+    background-color: #1B244A;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+ }

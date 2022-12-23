@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Quiz Master</title>
+</head>
+<body>
+    <h1 class="board">THE QUIZ MASTER'S SCORE BOARD</h1>
+    <div class="container">
+        
+       <div class="mini-container">
+        <h1>Home</h1>
+        <h2 class="score" id="home-score">0</h2>
+        <button id="home-score-btn-1" onclick="increaseScoreBy1()">+ 1</button>
+        <button id="home-score-btn-2" onclick="increaseScoreBy2()">+ 2</button>
+        <button id="home-score-btn-3" onclick="increaseScoreBy3()">+ 3</button>
+       </div>
+       <div class="mini-container">
+        <h1>Guests</h1>
+        <h2 class="score" id="guest-score">0</h2>
+        <button id="guest-score-btn-1" onclick="guestScoreBy1()">+ 1</button>
+        <button id="guest-score-btn-2" onclick="guestScoreBy2()">+ 2</button>
+        <button id="guest-score-btn-3" onclick="guestScoreBy3()">+ 3</button>
+       </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
