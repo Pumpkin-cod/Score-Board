@@ -22,10 +22,19 @@ body {
     justify-content: space-around;
     background-color: #1B244A;
     height: 50vh;
-    width: 50vw;
+    width: 80vw;
     align-items: center;
     color: #fff;
    margin: auto;
+}
+
+@media screen and (max-width: 414px) {
+    .container {
+        width: 70vw;
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 30px;
+    }
 }
 
 .mini-container{
