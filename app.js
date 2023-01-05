@@ -13,6 +13,7 @@ let resetEl = document.querySelector("#reset-el")
 let count = 0
 let count1 = 0
 
+
 // Home Score board
 function increaseScoreBy1() {
     count += 1
